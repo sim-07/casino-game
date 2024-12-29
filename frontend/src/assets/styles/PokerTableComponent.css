@@ -1,0 +1,22 @@
+.circle {
+  width: 140px;
+  height: 90px;
+  border-radius: 38%;
+  background-color: #939393;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  .circle {
+    width: 120px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .circle {
+    width: 100px;
+    height: 60px;
+  }
+}

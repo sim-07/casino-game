@@ -1,0 +1,16 @@
+.middlePageContainer {
+    text-align: left;
+    background-color: #1b1b1b;
+    color: white;
+    height: 102vh;
+    padding-left: 45px;
+}
+
+.rouletteImage {
+    width: 50%;
+    min-width: 250px;
+    border-radius: 15px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 4%;
+}
