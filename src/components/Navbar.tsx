@@ -29,7 +29,7 @@ export default function Navbar() {
             </AppBar>
 
             <DialogComponent open={openLogin} onClose={() => setOpenLogin(false)}>
-                <LoginForm />
+                <LoginForm signinTypeP={"login"} />
             </DialogComponent>
         </>
 
